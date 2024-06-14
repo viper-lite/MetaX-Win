@@ -6,7 +6,7 @@ namespace metax {
 class RegistryOp {
  public:
   // 创建注册表
-  static void Create();
+  static BOOL Create();
   // 查找注册表
   static BOOL Read();
   // 更新注册表

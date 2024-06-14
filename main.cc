@@ -8,6 +8,9 @@ int main(int argc, char* argv[]) {
   BOOL ret = metax::RegistryOp::Read();
   std::cout << ret << std::endl;
 
+  ret = metax::RegistryOp::Create();
+  std::cout << ret << std::endl;
+
   QApplication a(argc, argv);
   MainWindow w;
   w.show();
